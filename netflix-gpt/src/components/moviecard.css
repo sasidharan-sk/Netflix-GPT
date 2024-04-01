@@ -1,0 +1,16 @@
+.movie-card {
+    width: 15vw;
+    margin-bottom: 20px;
+  }
+  
+  .movie-poster {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  @media screen and (max-width: 1350px) {
+    .movie-card {
+      width: calc(44vw - 20vw); /* Adjust the width as needed */
+    }
+  }
