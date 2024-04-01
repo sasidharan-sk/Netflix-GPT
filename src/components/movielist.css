@@ -1,0 +1,16 @@
+/* movielist.css */
+.custom-scrollbar {
+    overflow-x: auto;
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: transparent transparent; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 0.5em; /* Chrome, Safari, Opera */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Chrome, Safari, Opera */
+  }
+  
